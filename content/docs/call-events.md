@@ -1,5 +1,5 @@
 ---
-title: "Inbound Call Events (URL, номер, SIP ID)"
+title: "Inbound Call Events"
 weight: 3
 description: "Inbound Call Events - параметры уведомлений на URL о входящих звонках."
 ---

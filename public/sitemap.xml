@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:41989/docs/call-events/</loc>
+    <loc>https://example.org/docs/call-events/</loc>
   </url><url>
-    <loc>http://localhost:41989/docs/sip-events/</loc>
+    <loc>https://example.org/docs/sip-events/</loc>
   </url><url>
-    <loc>http://localhost:41989/docs/callback-events/</loc>
+    <loc>https://example.org/docs/callback-events/</loc>
   </url><url>
-    <loc>http://localhost:41989/docs/making-callback/</loc>
+    <loc>https://example.org/docs/making-callback/</loc>
   </url><url>
-    <loc>http://localhost:41989/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:41989/docs/</loc>
+    <loc>https://example.org/docs/</loc>
   </url><url>
-    <loc>http://localhost:41989/</loc>
+    <loc>https://example.org/</loc>
   </url><url>
-    <loc>http://localhost:41989/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>

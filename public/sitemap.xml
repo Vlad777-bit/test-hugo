@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:41989/docs/call-events/</loc>
+  </url><url>
+    <loc>http://localhost:41989/docs/sip-events/</loc>
+  </url><url>
+    <loc>http://localhost:41989/docs/callback-events/</loc>
+  </url><url>
+    <loc>http://localhost:41989/docs/making-callback/</loc>
+  </url><url>
+    <loc>http://localhost:41989/categories/</loc>
+  </url><url>
+    <loc>http://localhost:41989/docs/</loc>
+  </url><url>
+    <loc>http://localhost:41989/</loc>
+  </url><url>
+    <loc>http://localhost:41989/tags/</loc>
+  </url>
+</urlset>

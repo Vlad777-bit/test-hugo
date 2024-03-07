@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on My New Hugo Site</title>
-    <link>https://example.org/docs/</link>
+    <link>http://localhost:1313/docs/</link>
     <description>Recent content in Docs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inbound Call Events</title>
-      <link>https://example.org/docs/call-events/</link>
+      <link>http://localhost:1313/docs/call-events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/docs/call-events/</guid>
+      <guid>http://localhost:1313/docs/call-events/</guid>
       <description>Описание уведомлений, которые отправляются на установленный URL при входящих звонках, переадресованных на URL, номер телефона или SIP ID.&#xA;Параметры уведомлений Originate Инициация вызова на redirect_number (номер переадресации).&#xA;Параметр Тип Описание service string сервис для отправки уведомления date_time string дата события в формате RFC-3339 / ISO-8601 number_a string номер A-абонента (с которого поступил вызов) redirect_number string номер, на который переадресовывается вызов call_sid string уникальный идентификатор вызова type string тип уведомления, значение - o sip_id string номер Exolve, на который поступает вызов reserve boolean признак переадресации на резервный номер.</description>
     </item>
     <item>
       <title>Outbound Call Events (SIP ID)</title>
-      <link>https://example.org/docs/sip-events/</link>
+      <link>http://localhost:1313/docs/sip-events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/docs/sip-events/</guid>
+      <guid>http://localhost:1313/docs/sip-events/</guid>
       <description>Параметры уведомлений Originate Инициация вызова с SIP ID на номер B-абонента (номер телефона, на который совершается вызов).&#xA;Параметр Тип Описание service string сервис для отправки уведомления date_time string дата события в формате RFC-3339 / ISO-8601 number_a string номер A-абонента (определяемый номер Exolve, привязанный к SIP ID) number_b string номер B-абонент (номер телефона, на который совершён вызов) call_sid string уникальный идентификатор вызова type string тип уведомления, значение - o sip_id string SIP ID, с которого совершён звонок record_call boolean признак записи разговора.</description>
     </item>
     <item>
       <title>Callback Call Events</title>
-      <link>https://example.org/docs/callback-events/</link>
+      <link>http://localhost:1313/docs/callback-events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/docs/callback-events/</guid>
+      <guid>http://localhost:1313/docs/callback-events/</guid>
       <description>Параметры уведомлений Originate Инициация обратного звонка для одного из абонентов.&#xA;Параметр Тип Описание service string сервис для отправки уведомления date_time string дата события в формате RFC-3339 / ISO-8601 call_sid string уникальный идентификатор вызова number string номер вызываемого абонента type string тип уведомления, значение - o uid uint64 уникальный идентификатор вызова. Одинаковый во всех событиях и запросах в рамках одного вызова application_uuid string уникальный идентификатор приложения, через которое проходит вызов customer_id uint64 уникальный идентификатор пользователя event_side string к какому абоненту относится уведомление (A-абонент или B-абонент ) record_call boolean признак записи разговора.</description>
     </item>
     <item>
       <title>MakeCallBack</title>
-      <link>https://example.org/docs/making-callback/</link>
+      <link>http://localhost:1313/docs/making-callback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/docs/making-callback/</guid>
+      <guid>http://localhost:1313/docs/making-callback/</guid>
       <description>Метод MakeCallBack Примените этот метод для совершения обратного звонка. Для этого выполните POST запрос с входными параметрами к точке подключения, указанными ниже.&#xA;Точка подключения:&#xA;POST: https://api.exolve.ru/call/v1/MakeCallback Авторизация Передайте следующие Заголовки HTTP для успешной авторизации.&#xA;Имя Тип Описание Authorization string API-ключ приложения с Bearer перед ним. Пример: Bearer e***s0, где e***s0 замените на API-ключ вашего приложения Входные параметры Передайте следующие параметры в теле запроса в JSON формате. Параметры, отмеченные жирным шрифтом, являются обязательными.</description>
     </item>
   </channel>
